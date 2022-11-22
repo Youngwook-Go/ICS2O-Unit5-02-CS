@@ -34,7 +34,7 @@ class Program
             }
             else if (numberInput > 6 || numberInput < 0)
             {
-                Console.WriteLine("Input is not a number from 1 to 6!");
+                Console.WriteLine("Input is not a number from +1 to +6!");
             }
             else
             {
@@ -43,7 +43,7 @@ class Program
                 Console.WriteLine("Try again!");
             }
         }
-        else if(input == 1)
+        else if (input == 1)
         {
             Console.WriteLine("\nThe number will be negative\n");
             Console.Write("Enter random number between 1 to 6 --> -"); numberInput = Convert.ToInt32(Console.ReadLine());
@@ -55,7 +55,7 @@ class Program
             }
             else if (numberInput > 6 || numberInput < 0)
             {
-                Console.WriteLine("Input is not a number from 1 to 6!");
+                Console.WriteLine("Input is not a number from -1 to -6!");
             }
             else
             {
